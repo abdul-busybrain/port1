@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <!-- navigation -->
+    <div class="topnav">
+        <a class="active" href="./index.html">Home</a>
+        <a href="./contact.html">Contact</a>
+        <a href="./about.html">About</a>
+    </div>
+
+    <div class="container">
+        <div style="text-align: center;">
+            <h2>Contact Us</h2>
+            <p>Salute, or suggest how we can improve our services</p>
+        </div>
+        <div class="row">
+            <div class="column">
+                <img src="" alt="">
+                <form action="">
+                    <label for="fname">First Name:</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name...">
+                    <label for="lname">Last Name:</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Last name...">
+                    <label for="oname">Other Name:</label>
+                    <input type="text" id="oname" name="othername" placeholder="Other name...">
+                    <label for="country">Country</label>
+                    <select name="country" id="country">
+                        <option value="nigeria">Nigeria</option>
+                        <option value="mali">Mali</option>
+                    </select>
+                    <label for="subject">Subject</label>
+                    <textarea name="subject" id="subject" placeholder="Write something..."
+                        style="height: 170px;"></textarea>
+                    <input type="submit">
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+    <style>
+        .footer {
+            position: fixed;
+            left: 0;    
+            bottom: 0;
+            width: 100%;
+            background-color: red;
+            color: white;
+            text-align: center;
+        }
+    </style>
+
+    <div class="footer">
+        <p>Abdullahi Busybrain Technologies</p>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
